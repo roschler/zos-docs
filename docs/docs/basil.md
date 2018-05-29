@@ -146,7 +146,7 @@ of your project in that specific network, including contract logic and instance 
 
 ## Contract logic and upgradeable instances
 
-Notice how the file `zos.local.json` lists a series of "contracts" and "proxies". The first are the logic contracts for a specific contract name, while the second are the actual contract instances that our users will interact with in the blockchain. 
+Notice how the file `zos.development.json` lists a series of "contracts" and "proxies". The first are the logic contracts for a specific contract name, while the second are the actual contract instances that our users will interact with in the blockchain. 
 
 A proxy is a wrapper for a contract's logic, that allows it to be updated, while mainting its state. We need to create an upgradeable instance (proxy) for Basil.
 
